@@ -1,0 +1,136 @@
+/* a minimalist set of CSS resets */
+/* default to border-box */
+@media (max-width=300px) {
+  .photobox {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+  }
+}
+/*img,
+video {
+  height: auto;
+  max-width: 100%;
+} */
+
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.navbar {
+  background-color: #33333333;
+  position: relative;
+  z-index: 999;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.navbar li {
+  display: inline-block;
+  border-right: 1px solid #bbbbbb;
+}
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+/* Style the dropdown menu */
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+.navbar ul ul li {
+  display: block;
+}
+.navbar li:hover ul {
+  display: block;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  background-color: #04aa6d;
+  opacity: 1;
+}
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+  background-color: #04aa6d;
+}
+
+
+/* This portion will format the picture and text in the main html */
+.photobox {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.photo {
+  padding: 10px;
+  height: auto;
+}
+.photo.one {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.photo.one img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.photo.two {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.photo.two p {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+  text-align: justify;
+  color: #001100;
+  font-size: 30px;
+}
+.banner3 {
+  border: 5px solid;
+  border-radius: 4px;
+  width: 97vw;
+  height: auto;
+  object-fit: cover;
+  opacity: 1;
+}

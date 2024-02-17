@@ -1,0 +1,63 @@
+.banner2 {
+  border: 5px solid;
+  border-radius: 4px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.heading {
+  margin-left: 250px;
+}
+.food {
+  width: 400px;
+  text-align: justify;
+  margin-left: 100px;
+}
+.heading2 {
+  margin-left: 675px;
+  float: center;
+}
+.transportation {
+  width: 400px;
+  text-align: justify;
+  margin-right: 250px;
+  float: right;
+}
+.desertcamp {
+  width: 400px;
+  text-align: justify;
+  margin-left: 202px;
+}
+.door {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+.doorparagraph {
+  margin-left: 100px;
+  margin-right: 10px;
+  text-align: justify;
+}
+.itinerary1 {
+  margin-left: 200px;
+  text-align: justify;
+  width: 400px;
+}
+.itinerary2 {
+  margin-left: 450px;
+}
+.itinerary3 {
+  margin-right: 200px;
+}
+.itinerary4 {
+  margin-right: 100px;
+  text-align: justify;
+  width: 400px;
+  float: Right;
+}
+.itinerary5 {
+  margin-left: 200px;
+}
