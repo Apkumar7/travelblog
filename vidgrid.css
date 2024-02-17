@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Bumble Bee";
+  src: url("bumblebee-webfont.eot");
+  src: local("☺"), url("bumblebee-webfont.woff") format("woff"),
+    url("bumblebee-webfont.ttf") format("truetype"),
+    url("bumblebee-webfont.svg#webfontg8dbVmxj") format("svg");
+}
+
+@media screen and (max-width:200px) {
+  .video_test {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+  }
+}
+.dipped {
+  transform: translateY(7px);
+  color: gray;
+}
+.title {
+  background-color: #bbcc00;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  padding: 40px;
+}
+/* Create rows*/
+.videobox1 {
+  display: grid;
+  /*grid-template-columns: 1fr 18fr 1fr;*/
+  --padding: 20px;
+  row-gap: 10px;
+  position: relative;
+  padding: var(--padding);
+  border: 0px solid hsl(210deg 10% 40%);
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.video_test {
+  display: grid;
+  /*grid-template-columns: 5fr 10fr 5fr;*/
+  --padding: 40px;
+  position: relative;
+  padding: var(--padding);
+  grid-auto-flow: row;
+  border: 0px solid hsl(210deg 10% 40%);
+  border-radius: 0px;
+  justify-content: center;
+  height: 90vh;
+  width: auto;
+  max-width: auto;
+  max-height: 95vh;
+  row-gap: 5px;
+} 
+.video_test video {
+  display: grid;
+  /*grid-column: 2 / 3;*/
+  grid-row: 1/ 2;
+  height: 65vh;
+  /*width: auto;*/ 
+}
+.video_test a img { 
+  display: grid;
+  /*grid-column: 2 / 3;  */
+  grid-row: 2 / 3;
+  position: relative;
+  padding: 10px;
+  font-size: 1.5vw;
+  justify-content: center;
+  display: absolute;
+  width: auto;
+  height: 50vh;
+  max-width: 87vw;
+  max-height: 85vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 3px solid #111111;
+  border-radius: 10px;
+}
+
+.video_test a p { 
+  display: grid;
+  /*grid-column: 2 / 3;  */
+  grid-row: 2 / 3;
+  position: relative;
+  padding: 10px;
+  font-size: 2vw;
+  justify-content: center;
+  display: absolute;
+  width: auto;
+  height: 50vh;
+  max-width: 87vw;
+  max-height: 85vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 0px solid #111111;
+  border-radius: 10px;
+}

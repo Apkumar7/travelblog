@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Column_testing_sheet</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/grid.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <!-- The website JavaScript file -->
+    <script src="/imagescript.js" defer></script>
+     <!-- import the webpage's fonts file for google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
+    />
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="tripsandtravels.html">Trips and Travels</a>
+          <ul class="dropdownlist">
+            <li>
+              <a href="tripsandtravels.html#section1"
+                >Rajasthan, India(Dec 2023)</a
+              >
+            </li>
+            <li>
+              <a href="tripsandtravels.html#section2">Costa Rica(Dec 2022)</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a>Photos</a>
+          <ul class="dropdownlist">
+            <li><a href="rajasthan_pics.html">Rajasthan Photos</a></li>
+            <li><a href="costarica_pics.html">Costa Rica Photos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>Resources</a>
+          <ul class="dropdownlist">
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="traveltips.html">Travel Tips</a></li>
+            <li><a href="phototips.html">Photography Tips</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="navabout" href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+  </head>
+
+  <h1 class="title" id="title">Rajasthan Pictures </h1>
+  <div class="picbox1" id="picbox1i">
+    <div class="pcontent one">
+      <button id="btn1" onclick="btn1click()">
+        <i class="material-icons" style="font-size: 50px">chevron_left</i>
+      </button>
+      <p id="pbtn1"></p>
+    </div>
+    <div class="pcontent two">
+      <img
+        id="changing_img"
+        src="https://cdn.glitch.global/85885e75-f9b6-4fb4-a31a-9ee2637c521a/8E8E0DE5-ADEC-4CDE-A013-B6DA0047DDC4.jpeg?v=1705807653632"
+        alt="lake image"
+      />
+    </div>
+    <div class="pcontent three">
+      <button id="btn2" onclick="btn2click()" onhover="btn2hover()">
+        <i class="material-icons" style="font-size: 50px">chevron_right</i>
+      </button>
+      <p id="pbtn2"></p>
+    </div>
+    <!-- <div class="stale">
+    </div> -->
+    <div class="pictitle">
+      <p id="pich">Gadisar Lake</p>
+    </div>
+    <!--<div class="stale">
+    </div> -->
+  </div>
+</html>

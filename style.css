@@ -1,0 +1,970 @@
+/* a minimalist set of CSS resets */
+/* default to border-box */
+@media (max-width=400px) {
+  .photobox {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+  }
+  .patwaon_haveli {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+  }
+  .introduction {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+  }
+  .banner3 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+/*img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+/* This portion will align the door and the text below */
+.introduction {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+.intro {
+  padding: 10px;
+  width: auto;
+  flex-direction: column;
+}
+.intro.pic {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.intro.pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 100%;
+}
+.intro.para {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+}
+.intro.para p {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+
+/* This portion will format the picture and text in the main html */
+.photobox {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.photo {
+  padding: 10px;
+  height: auto;
+}
+.photo.one {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.photo.one img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.photo.two {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.photo.two p {
+  text-align: justify;
+  color: #001100;
+  font-size: 30px;
+}
+
+.visit_jaisalmer {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+}
+.visit_jaisalmer h1 {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+.visit_jaisalmer h2 {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+.haveli {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+}
+.haveli h3 {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the Haveli portion */
+.patwaon_haveli {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.patwaon {
+  padding: 10px;
+  height: auto;
+}
+.patwaon.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.patwaon.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.patwaon.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.patwaon.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the Jaisalmer living fort portion */
+
+.jaisalmer_fort {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.fort {
+  padding: 10px;
+  height: auto;
+}
+.fort.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.fort.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+.fort.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.fort.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+
+/* This portion is formating the Haveli portion */
+.bada_bagh {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.bada {
+  padding: 10px;
+  height: auto;
+}
+.bada.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.bada.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.bada.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.bada.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+
+/* This portion is formating the Haveli portion */
+.gadisar_lake {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.lake {
+  padding: 10px;
+  height: auto;
+}
+.lake.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.lake.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.lake.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.lake.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+
+/* This portion is formating the Haveli portion */
+.girls_school {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.school {
+  padding: 10px;
+  height: auto;
+}
+.school.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.school.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.school.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.school.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+.jodhpur.para {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+}
+.jodhpur.para p {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.75vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the fort portion */
+.Mehrangarh_Fort {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.fort2 {
+  padding: 10px;
+  height: auto;
+}
+.fort2.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.fort2.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+.fort2.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.fort2.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the fort portion */
+.Jaswanth_Thada {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.thada {
+  padding: 10px;
+  height: auto;
+}
+.thada.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.thada.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+.thada.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.thada.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the blue city portion */
+.Walk_through_the_blue_city {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.walk {
+  padding: 10px;
+  height: auto;
+}
+.walk.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.walk.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+.walk.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.walk.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the clock tower portion */
+.clock_tower {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.tower {
+  padding: 10px;
+  height: auto;
+}
+.tower.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.tower.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+.tower.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.tower.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the clock tower portion */
+.Mandore_Garden {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.gardens {
+  padding: 10px;
+  height: auto;
+}
+.gardens.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.gardens.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.gardens.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.gardens.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the clock tower portion */
+.stepwell2 {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.stepwell {
+  padding: 10px;
+  height: auto;
+}
+.stepwell.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.stepwell.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.stepwell.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.stepwell.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+/* This portion is formating the food portion */
+.food2 {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.food {
+  padding: 10px;
+  height: auto;
+}
+.food.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.food.photo img {
+  display: block;
+  /*float: right;*/
+  width: 40vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.food.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.food.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  width: 400px;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: #001100;
+}
+
+/* This portion is formating the transporation portion */
+.transportation2 {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.transport {
+  padding: 10px;
+  height: auto;
+}
+.transport.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.transport.photo img {
+  display: block;
+  /*float: left;*/
+  width: 40vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.transport.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.transport.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  width: 500px;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5vw;
+  color: #001100;
+}
+/* This portion is formating the transporation portion */
+.glamping2 {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.glamp {
+  padding: 10px;
+  height: auto;
+}
+.glamp.photo {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.glamp.photo img {
+  display: block;
+   display: block;
+  /*float: left;*/
+  width: 40vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.glamp.text {
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.glamp.text p {
+  display: block;
+  text-align: justify;
+  word-wrap: break-word;
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+  width: 400px;
+  font-size: 1.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5vw;
+  color: #001100;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* li {
+    border-right: 1px solid #bbbbbb;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+*/
+.navbar {
+  background-color: #33333333;
+  position: relative;
+  z-index: 999;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.navbar li {
+  display: inline-block;
+  border-right: 1px solid #bbbbbb;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  background-color: #04aa6d;
+  opacity: 1;
+}
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+  background-color: #04aa6d;
+}
+.navabout {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.moving_text {
+  font-family: "Sofia", cursive, Fantasy, Helvetica, Arial, Verdana, Tahoma,
+    sans-serif;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+
+.floatRight {
+  float: right;
+  margin-left: 20px;
+  position: relative;
+}
+.floatRightClear {
+  float: right;
+  clear: right;
+  margin-left: 20px;
+}
+.banner {
+  border: 5px solid;
+  border-radius: 4px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  opacity: 1;
+}
+.banner2 {
+  border: 5px solid;
+  border-radius: 4px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.heading {
+  margin-left: 250px;
+}
+.heading2 {
+  margin-left: 675px;
+  float: center;
+}
+.transportation {
+  width: 400px;
+  text-align: justify;
+  margin-right: 250px;
+  float: right;
+  position: relative;
+}
+.desertcamp {
+  width: 400px;
+  text-align: justify;
+  margin-left: 202px;
+}
+.door {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+.doorparagraph {
+  margin-left: 100px;
+  margin-right: 10px;
+  text-align: justify;
+}
+.itinerary1 {
+  text-align: justify;
+  width: 400px;
+}
+.itinerary2 {
+  margin-left: 450px;
+}
+.itinerary3 {
+  margin-right: 200px;
+}
+.itinerary4 {
+  margin-right: 100px;
+  text-align: justify;
+  width: 400px;
+  float: Right;
+}
+.itinerary5 {
+  margin-left: 200px;
+}
+.banner3 {
+  border: 5px solid;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.about {
+  width: 450px;
+  text-align: justify;
+  font-size: 25px;
+}
+.aboutme {
+  width: 450px;
+}
+.photo4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
